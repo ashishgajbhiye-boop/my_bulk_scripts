@@ -1,6 +1,6 @@
 import requests
 
-url = "https://35idc7phd7.execute-api.ap-south-1.amazonaws.com/V1/sarathyupdate/ridertransfer"
+url = "https://0fs16zlyvk.execute-api.ap-south-1.amazonaws.com/V1/sarathy/ridertransfer"
 
 headers = {
     "node_id": "84",

@@ -6,7 +6,7 @@ pickup_url = "https://0fs16zlyvk.execute-api.ap-south-1.amazonaws.com/V1/sarathy
 trip_url = "https://0fs16zlyvk.execute-api.ap-south-1.amazonaws.com/V1/sarathy/Trip_complete"
 
 # Excel file path
-file_path = "/Users/ashish/Downloads/pickup_task_assign_2026-04-19T09_55_59.657518193Z.xlsx"
+file_path = "/Users/ashish/Downloads/pickup_task_assign_2026-04-24T15_30_13.641730103Z.xlsx"
 
 
 df = pd.read_excel(file_path)
@@ -38,7 +38,6 @@ for index, row in df.iterrows():
             "reason": "",
             "pickupOtp": ""
         }
-
         r1 = requests.post(pickup_url, headers=headers1, json=payload1)
 
         print("Pickup API:", r1.status_code)
