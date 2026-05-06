@@ -6,16 +6,16 @@ import time
 API_URL = "https://0fs16zlyvk.execute-api.ap-south-1.amazonaws.com/V1/sarathy/Manualtripclose"
 
 # Enter Trip IDs here (comma separated inside string)
-trip_ids = "36939519"
+trip_ids = "37753023"
 
 DELAY = 0.3   # small delay between API calls
 
-# ------------------------
+# ------------------------ 
 
 headers = {
     "Content-Type": "application/json"
 }
-
+ 
 trip_list = [int(x.strip()) for x in trip_ids.split(",")]
 
 success = 0

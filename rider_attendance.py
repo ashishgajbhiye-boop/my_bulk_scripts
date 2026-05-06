@@ -7,7 +7,7 @@ API_URL = "https://0fs16zlyvk.execute-api.ap-south-1.amazonaws.com/V1/KYC/Rider_
 
 # Paste rider IDs here (comma separated)
 rider_ids = [
-    25959, 26170, 25958, 26270, 24702, 24689, 23797, 24724, 26180, 26269, 24557, 25970, 25960, 24620, 25964
+    26154, 27918, 27193, 26429, 24557, 24702, 26536, 24689, 26269, 20196, 26282
 
 ]
 
