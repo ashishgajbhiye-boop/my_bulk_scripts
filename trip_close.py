@@ -6,7 +6,7 @@ import time
 API_URL = "https://0fs16zlyvk.execute-api.ap-south-1.amazonaws.com/V1/sarathy/Manualtripclose"
 
 # Enter Trip IDs here (comma separated inside string)
-trip_ids = "37753023"
+trip_ids = "37874559"
 
 DELAY = 0.3   # small delay between API calls
 

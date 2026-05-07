@@ -3,14 +3,14 @@ import requests
 url = "https://0fs16zlyvk.execute-api.ap-south-1.amazonaws.com/V1/sarathy/ridertransfer"
 
 headers = {
-    "node_id": "211",
+    "node_id": "20",
     "name": "ashish",
     "Content-Type": "application/json"
 }
 
 payload = {
-    "nodeId": 256,
-    "riderIds": [18023]
+    "nodeId": 305,
+    "riderIds": [3117]
 }
 
 try:
